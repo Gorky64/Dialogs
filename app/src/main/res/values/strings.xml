@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dijalozi</string>
+    <string name="DA">DA</string>
+    <string name="NE">NE</string>
+    <string name="Unesite_podatke">Unesite podatke</string>
+
+    <string-array name="Gradovi">
+        <item name="Zagreb">Zagreb</item>
+        <item name="Varaždin">Varaždin</item>
+        <item name="Bjelovar">Bjelovar</item>
+        <item name="Split">Split</item>
+    </string-array>
+</resources>

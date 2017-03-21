@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fs02.dijalozi.MainActivity">
+
+    <TextView
+        android:text="Prezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPrezime"
+        android:textSize="25sp"
+        android:layout_below="@+id/tvIme"
+        android:layout_alignStart="@+id/tvIme"
+        android:hint="Prezime"/>
+    <TextView
+        android:text="Grad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGrad"
+        android:textSize="25sp"
+        android:layout_alignStart="@+id/tvIme"
+        android:layout_below="@+id/tvPrezime"
+        android:hint="Grad"/>
+
+    <TextView
+        android:text="Ulica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvGrad"
+        android:layout_alignStart="@+id/tvGrad"
+        android:textSize="25sp"
+        android:id="@+id/tvUlica"
+        android:hint="Ulica"/>
+
+    <TextView
+        android:text="Datum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUlica"
+        android:layout_alignStart="@+id/tvUlica"
+        android:id="@+id/tvDatum"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Napomena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNapomena"
+        android:textSize="25sp"
+        android:layout_below="@+id/tvDatum"
+        android:layout_alignStart="@+id/tvDatum"
+        android:hint="Napomena"/>
+
+    <Button
+        android:text="Warning dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:id="@+id/btnWarningDialog" />
+
+    <TextView
+        android:text="Ime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIme"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Ime"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/btnWarningDialog" />
+
+</RelativeLayout>
